@@ -1,6 +1,6 @@
 <?php
 
-	$url = "http://wezeshanet.com/api/v1/request_demo";
+	$url = "https://wezeshanet.com/api/v1/request_demo";
 	$name = $_POST['first_name'] . ' ' . $_POST['last_name'];
 	$email = $_POST['email'];
 	$country = $_POST['country'];
