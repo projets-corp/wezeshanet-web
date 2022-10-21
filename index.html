@@ -62,7 +62,7 @@
                         </li>
 
                     </ul>
-                    <a href="#0" class="btn-1">Get Started</a>
+                    <a href="#0" class="btn-1" data-toggle="modal" data-target="#requestModal">Get Started</a>
                 </div>
             </div>
         </nav>
@@ -419,40 +419,52 @@
             </div>
         </section>
         <!-- ======== End Price ======== -->
-
-        <!-- ======== Start Contact ======== -->
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="heading text-center">
-                    <h2>Keep In Touch</h2>
-                    <div class="line m-auto"></div>
-                    <p>Reach out to us on our socials</p>
-                </div>
-                <div class="main">
-                    <div class="row">
-                        <div class="col-lg-8 left">
-                            <h3>Send Message</h3>
-
-                            <form>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
+        <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="requestModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">Request a demo</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" action="/script/get-started.php">
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="First Name">
                                 </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="Last Name">
                                 </div>
-                                <button class="btn btn-block" type="submit">Send Now!</button>
-                            </form>
-                        </div>
-                        
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-12">
+                                    <input type="email" class="form-control" placeholder="email">
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-6">
+                                    <select name="country" id="country" class="form-control" aria-placeholder="country">
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="City/State">
+                                </div>
+                            </div>
+                            <div class="form-group mt-2">
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Any comments?"></textarea>
+                            </div>
+                            <button class="btn btn-block btn-primary" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
-        </section>
-        <!-- ======== End Contact ======== -->
+            </div>
+        </div>
 
         <!-- ======== Start Footer ======== -->
         <footer class="footer">
