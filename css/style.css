@@ -1,0 +1,57 @@
+.error-page {
+    max-width: 300px;
+    margin: 8vh auto 0;
+    text-align: center;
+}
+.error-page .icon {
+    background: url(../img/extra/lost.png) no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.error-page .error {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.error-page .message {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.carousel-item img {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.social-info-wrapper {
+    flex-direction: column;
+    align-items: start;
+}
+
+.social-info-wrapper li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-info-wrapper a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* a {
+    text-decoration: none;
+} */

@@ -121,7 +121,7 @@ body {
     margin-bottom: 15px;
 }
 .features .heading .line {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     height: 2px;
     width: 50px;
 }
@@ -178,13 +178,13 @@ body {
 .join .content .box h3 {
     font-size: 20px;
     font-weight: 500;
-    color: #e73d59;
+    color: #5e65d2;
     margin: 0;
     padding: 0;
     margin-bottom: 15px;
 }
 .join .content .box .dark-pink {
-    color: #604ae6;
+    color: #6b449b;
 }
 .join .content .box p {
     font-size: 15px;
@@ -243,7 +243,7 @@ body {
     background: url("../img/map-dots.png") center center no-repeat;
 }
 .customer .left .top {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: #ffffff;
     font-size: 13px;
     font-weight: 300;
@@ -366,7 +366,7 @@ body {
     margin-bottom: 15px;
 }
 .our-team .heading .line {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     height: 2px;
     width: 50px;
 }
@@ -415,7 +415,7 @@ body {
     margin-top: 20px;
 }
 .our-team .box .social .icon {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     width: 44px;
     height: 44px;
     line-height: 20px;
@@ -447,7 +447,7 @@ body {
     margin-bottom: 20px;
 }
 .worked .box .line {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     height: 2px;
     width: 50px;
 }
@@ -460,7 +460,7 @@ body {
     margin-bottom: 25px;
 }
 .worked .box .btn-1 {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
     border: 1px solid rgba(0,0,0,0);
     text-decoration: none;
@@ -523,7 +523,7 @@ body {
     background-size: cover;
 }
 .video .left .video-icon .icon {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
     color: #ffffff;
     display: inline;
@@ -562,7 +562,7 @@ body {
     margin-bottom: 20px;
 }
 .video .right .line {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     height: 2px;
     width: 50px;
 }
@@ -575,7 +575,7 @@ body {
     margin-bottom: 20px;
 }
 .video .right .btn-1 {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
     border: 1px solid rgba(0,0,0,0);
     text-decoration: none;
@@ -629,7 +629,7 @@ body {
     margin-bottom: 15px;
 }
 .price .heading .line {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     height: 2px;
     width: 50px;
 }
@@ -673,7 +673,7 @@ body {
 .price .box h4 {
     font-size: 30px;
     font-weight: 600;
-    color: #e73d59;
+    color: #6272e0;
     text-transform: uppercase;
     margin-top: 20px;
 }
@@ -695,7 +695,7 @@ body {
 }
 
 .price .box .btn-1 {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,0.06);
     border: 1px solid rgba(0,0,0,0);
     text-decoration: none;
@@ -806,7 +806,7 @@ body {
     margin-bottom: 15px;
 }
 .contact .heading .line {
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     height: 2px;
     width: 50px;
 }
@@ -841,7 +841,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     font-size: 15px;
-    background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%);
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: #ffffff;
 }
 
@@ -925,34 +925,6 @@ body {
     background: url("../img/loader/Preloader_2.gif") center no-repeat #fff;
 }
 
-.error-page {
-    max-width: 300px;
-    margin: 8vh auto 0;
-    text-align: center;
-}
-.error-page .icon {
-    background: url(../img/extra/lost.png) no-repeat center center;
-    background-size: contain;
-    display: inline-block;
-    width: 300px;
-    height: 300px;
-}
-
-.error-page .error {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 3rem;
-}
-
-.error-page .message {
-    font-size: 1.5rem;
-    color: #777;
-}
-
-.carousel-item img{
-    max-width: 40%;
-    max-height: 40%;
-}
 /*--------------------------------------------------
 [18. Start Media Query]
 --------------------------------------------------*/
@@ -960,7 +932,7 @@ body {
 @media (max-width: 383.98px) {
     .navbar {
         padding: 20px 30px;
-        background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%) !important;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 1) 0%, rgba(118, 75, 162, 1) 100%) !important;
     }
     .navbar .nav-item .nav-link {
         margin: 0;
@@ -1030,7 +1002,7 @@ body {
 @media (max-width: 575.98px) {
     .navbar {
         padding: 20px 30px;
-        background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%) !important;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 1) 0%, rgba(118, 75, 162, 1) 100%) !important;
     }
     .navbar .nav-item .nav-link {
         margin: 0;
@@ -1092,7 +1064,7 @@ body {
 @media (max-width: 767.98px) {
     .navbar {
         padding: 20px 30px;
-        background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%) !important;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 1) 0%, rgba(118, 75, 162, 1) 100%) !important;
     }
     .navbar .nav-item .nav-link {
         margin: 0;
@@ -1156,7 +1128,7 @@ body {
 @media (max-width: 991.98px) {
     .navbar {
         padding: 20px 30px;
-        background: linear-gradient(135deg, rgba(231, 61, 89, 1) 0%, rgba(96, 74, 230, 1) 100%) !important;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 1) 0%, rgba(118, 75, 162, 1) 100%) !important;
     }
     .navbar .nav-item .nav-link {
         margin: 0;
