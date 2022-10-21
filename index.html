@@ -432,29 +432,29 @@
                         <form method="post" action="/script/get-started.php">
                             <div class="row">
                                 <div class="col-6">
-                                    <input type="text" class="form-control" placeholder="First Name">
+                                    <input name="first_name" type="text" class="form-control" placeholder="First Name">
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" class="form-control" placeholder="Last Name">
+                                    <input name="last_name" type="text" class="form-control" placeholder="Last Name">
                                 </div>
                             </div>
                             <div class="row mt-2">
                                 <div class="col-12">
-                                    <input type="email" class="form-control" placeholder="email">
+                                    <input name="email" type="email" class="form-control" placeholder="email">
                                 </div>
                             </div>
                             <div class="row mt-2">
                                 <div class="col-6">
                                     <select name="country" id="country" class="form-control" aria-placeholder="country">
-                                        <option value=""></option>
+                                        <option value="kenya">Kenya</option>
                                     </select>
                                 </div>
                                 <div class="col-6">
-                                    <input type="text" class="form-control" placeholder="City/State">
+                                    <input name="city" type="text" class="form-control" placeholder="City/State">
                                 </div>
                             </div>
                             <div class="form-group mt-2">
-                                <textarea class="form-control" rows="5" id="comment" placeholder="Any comments?"></textarea>
+                                <textarea name="comment" class="form-control" rows="5" id="comment" placeholder="Any comments?"></textarea>
                             </div>
                             <button class="btn btn-block btn-primary" type="submit">Submit</button>
                         </form>
