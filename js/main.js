@@ -132,3 +132,27 @@ $(document).ready(function(){
     $('.video-link').magnificPopup({type: 'iframe'});
     
   });
+
+let requestForm = document.getElementById('requestForm');
+requestForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    let name = document.getElementById('first_name').value + ' ' + document.getElementById('last_name').value;
+    let email = document.getElementById('email').value;
+    let country = document.getElementById('country').value;
+    let city = document.getElementById('city').value;
+    let comment = document.getElementById('comment').value;
+
+    let body = {
+        name: name,
+        email: email,
+        country: country,
+        city: city,
+        comments: comment
+    }
+
+    $.post("https://wezeshanet.com/api/v1/request_demo", body, (data, status) => {
+        alert("Demo request submitted successfully.")
+        window.location.reload();
+    })
+})
