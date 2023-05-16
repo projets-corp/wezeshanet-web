@@ -151,8 +151,7 @@ requestForm.addEventListener("submit", (e) => {
         comments: comment
     }
 
-    $.post("https://wezeshanet.com/api/v1/request_demo", body, (data, status) => {
-        alert("Demo request submitted successfully.")
-        window.location.reload();
-    })
+    $.post("http://wezeshanet.test/api/v1/request_demo", body)
+    alert("Demo request submitted successfully.")
+    window.location.reload();
 })
